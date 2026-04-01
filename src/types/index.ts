@@ -75,3 +75,9 @@ export interface CartItem
   };
   qty: number;
 }
+
+export enum ROLES {
+  ADMIN = "admin",
+  CUSTOMER = "customer",
+  MANAGER = "manager",
+}
